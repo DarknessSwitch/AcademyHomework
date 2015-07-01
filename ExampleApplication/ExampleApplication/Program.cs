@@ -10,6 +10,7 @@ namespace ExampleApplication
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("HELLO, USER");
             new Program().OutputYear();
         }
         public void OutputYear()
