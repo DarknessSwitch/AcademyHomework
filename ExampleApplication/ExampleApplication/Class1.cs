@@ -13,5 +13,9 @@ namespace ExampleApplication
         {
             Console.WriteLine("Function for Class1");
         }
+        public void AdditionalFunction()
+        {
+            Console.WriteLine("An additional function for Class1");
+        }
     }
 }
