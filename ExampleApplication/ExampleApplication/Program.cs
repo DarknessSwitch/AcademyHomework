@@ -12,10 +12,15 @@ namespace ExampleApplication
         {
             Console.WriteLine("HELLO, USER");
             new Program().OutputYear();
+            new Program().OutputMonth();
         }
         public void OutputYear()
         {
             Console.WriteLine(DateTime.Now.Year);
+        }
+        public void OutputMonth()
+        {
+            Console.WriteLine(DateTime.Now.Month);
         }
     }
 }
