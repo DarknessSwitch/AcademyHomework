@@ -9,6 +9,9 @@ namespace ExampleApplication
 {
     class Class1
     {
-        
+        public void Function()
+        {
+            Console.WriteLine("Function for Class1");
+        }
     }
 }
