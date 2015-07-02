@@ -21,5 +21,9 @@ namespace ExampleApplication
         {
             Console.WriteLine(DateTime.Now.Day);
         }
+        public void OutputTime()
+        {
+            Console.WriteLine(DateTime.Now.TimeOfDay);
+        }
     }
 }
