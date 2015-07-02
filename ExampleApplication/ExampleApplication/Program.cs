@@ -17,5 +17,9 @@ namespace ExampleApplication
         {
             Console.WriteLine(DateTime.Now.Year);
         }
+        public void OutputDay()
+        {
+            Console.WriteLine(DateTime.Now.Day);
+        }
     }
 }
