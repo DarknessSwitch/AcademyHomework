@@ -25,5 +25,11 @@ namespace ExampleApplication
         {
             Console.WriteLine(DateTime.Now.TimeOfDay);
         }
+        public void OutputAll()
+        {
+            OutputYear();
+            OutputDay();
+            OutputTime();
+        }
     }
 }
